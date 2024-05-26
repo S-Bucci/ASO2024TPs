@@ -21,3 +21,7 @@ un valor cercano a -500000 (*restador* tarda más en la mayoría de los casos).
 ### 2b) 
 ![Gráfico para dos comensales y 8 hamburguesas](https://github.com/S-Bucci/ASO2024TPs/blob/main/TP3/Grafico%20tp3%20ArqSOs.jpg)
 
+
+## Parcial
+
+[Video del parcial](https://drive.google.com/file/d/1rVO7ew7h-p0dix0ELH4cIjy70NIphJVf/view)
