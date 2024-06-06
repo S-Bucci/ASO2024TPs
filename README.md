@@ -11,15 +11,15 @@ No son *exactamente* iguales pero varían dentro de rangos prácticamente idént
 ### 1c)
 En un principio, luego de descomentar las lineas 10,11,19 y 20, se puede observar que el programa tarda más en ejecutarse debido a la 
 gran cantidad de bucles *for* que tiene que leer. Luego, es posible notar una variación en el valor final de *acumulador*.
-Esta variación se produce porque ambos hilos "compiten" entre sí y el que termina de leer último su bucle *for* es el que puede
+Esta variación se produce porque ambos hilos intentan entrar a la zona crítica (acceder a la variable global acumulador) al mismo tiempo y el que termina de leer último su bucle *for* es el que puede
 asignar a *acumulador* su valor local de *a* sin que se pierda. Por eso a veces el resultado final es 500000 (*sumador* tarda más) o
-un valor cercano a -500000 (*restador* tarda más en la mayoría de los casos).
+un valor cercano a -500000 (*restador* tarda más en la mayoría de los casos). Esto es conocido como *race condition*, ya que los procesos compiten en una especie de carrera para acceder a la zona crítica, lo que genera resultados arbitrarios e impredecibles.
 
 ### 2a)
 [Código funcionando](https://github.com/S-Bucci/ASO2024TPs/blob/main/TP3/sin_race_condition.c)
 
 ### 2b) 
-![Gráfico para dos comensales y 8 hamburguesas](https://github.com/S-Bucci/ASO2024TPs/blob/main/TP3/Grafico%20tp3%20ArqSOs.jpg)
+![Gráfico para dos comensales y 8 hamburguesas]()
 
 
 ## Parcial
