@@ -19,7 +19,7 @@ un valor cercano a -500000 (*restador* tarda más en la mayoría de los casos). 
 [Código funcionando](https://github.com/S-Bucci/ASO2024TPs/blob/main/TP3/sin_race_condition.c)
 
 ### 2b) 
-![Gráfico para dos comensales y 8 hamburguesas]()
+![Gráfico para dos comensales y 8 hamburguesas](https://github.com/S-Bucci/ASO2024TPs/blob/main/TP3/Gr%C3%A1fico%20TP3%20ASO.jpg)
 
 
 ## Parcial
